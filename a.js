@@ -22,11 +22,13 @@ function setup() {
 }
 
 function draw() {
+    clear()
+    /*
   background(0);
   dragSegment(0, mouseX, mouseY);
   for( var i=0; i<x.length-1; i++) {
     dragSegment(i+1, x[i], y[i]);
-  }
+  } */
 }
 
 function dragSegment(i, xin, yin) {
